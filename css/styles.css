@@ -1,8 +1,100 @@
-footer {
-    text-align: center;
+body {
+    background: #E2DDEA;
 }
 
-/* font-family: "glodok",
-sans-serif;
-font-weight: 400;
-font-style: normal; */
+h1 {
+    text-align: center;
+    font-family: "glodok",
+            sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+}
+
+h2 {
+    font-family: "glodok",
+            sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 35px;
+
+    margin: 0;    
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid #1A1A1A;
+    border-radius: 47px;
+    background: #E2DDEA;
+    margin-top: 78px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+select {
+    font-family: Poppins;
+    font-weight: 500;
+    border: 2px solid #1A1A1A;
+    border-radius: 30px;
+    background: #E2DDEA;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 80%;
+    padding: 12px;
+}
+
+
+.city {
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    background: #F5F5F5;
+        border: 2px solid #1E1E1E;
+        border-radius: 22.026px;
+    padding: 30px 30px;    
+    justify-content: space-between;
+}
+
+#paris {
+    background-color: #F5F5F5;
+}
+#london {
+    
+    background-color: #BAA4EB;
+}
+#berlin {
+    background-color: #E8D174;
+    
+}
+#sydney {
+    background-color: #F5F0DB;
+
+}
+
+.date {
+    font-family: Poppins;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+ .time {
+        
+        font-family: Poppins;
+            font-weight: 600;
+            font-size: 35px;
+}
+
+.time small {
+    font-weight: 400;
+    font-size: 15px;
+    vertical-align: middle;
+}
+footer {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    margin: 40px;
+}
