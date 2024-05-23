@@ -8,7 +8,7 @@ h1 {
             sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 50px;
+        font-size: 40px;
 }
 
 h2 {
@@ -16,18 +16,18 @@ h2 {
             sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 35px;
+        font-size: 30px;
 
     margin: 0;    
 }
 
 .container {
-    width: 700px;
+    width: 600px;
     margin: 0 auto;
     border: 2px solid #1A1A1A;
-    border-radius: 47px;
+    border-radius: 40px;
     background: #E2DDEA;
-    margin-top: 78px;
+    margin-top: 50px;
     box-sizing: border-box;
     padding: 25px;
 }
@@ -40,7 +40,7 @@ select {
     background: #E2DDEA;
     display: block;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     width: 80%;
     padding: 12px;
 }
@@ -83,12 +83,12 @@ select {
         
         font-family: Poppins;
             font-weight: 600;
-            font-size: 35px;
+            font-size: 30px;
 }
 
 .time small {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 12px;
     vertical-align: middle;
 }
 footer {
@@ -96,5 +96,5 @@ footer {
     font-weight: 500;
     font-size: 12px;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
 }
