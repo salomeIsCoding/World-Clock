@@ -37,7 +37,7 @@ select {
     font-weight: 500;
     border: 2px solid #1A1A1A;
     border-radius: 30px;
-    background: #E2DDEA;
+    background: #F5F5F5;
     display: block;
     margin: 0 auto;
     margin-bottom: 25px;
@@ -50,14 +50,14 @@ select {
     display: flex;
     margin: 10px auto;
     width: 80%;
-    background: #F5F5F5;
+    /* background: #E8D174;
         border: 2px solid #1E1E1E;
-        border-radius: 22.026px;
+        border-radius: 22.026px; */
     padding: 30px 30px;    
     justify-content: space-between;
 }
 
-#paris {
+/* #paris {
     background-color: #F5F5F5;
 }
 #london {
@@ -71,7 +71,7 @@ select {
 #sydney {
     background-color: #F5F0DB;
 
-}
+} */
 
 .date {
     font-family: Poppins;
@@ -96,5 +96,5 @@ footer {
     font-weight: 500;
     font-size: 12px;
     text-align: center;
-    margin: 20px;
+    margin: 30px;
 }
