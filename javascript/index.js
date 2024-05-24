@@ -14,7 +14,23 @@ function updateTime(){
     let londonTime = moment().tz("Europe/London");
     londonDateElement.innerHTML = londonTime.format("MMMM Do YYYY");
     londonTimeElement.innerHTML = londonTime.format("h:mm:ss [<small>]A[</small>]");
-}
+
+    // Tokyo
+    let tokyoElement = document.querySelector("#tokyo");
+    let tokyoDateElement = tokyoElement.querySelector(".date");
+    let tokyoTimeElement = tokyoElement.querySelector(".time");
+    let tokyoTime = moment().tz("Asia/tokyo");
+    tokyoDateElement.innerHTML = tokyoTime.format("MMMM Do YYYY");
+    tokyoTimeElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small>]");
+    
+    // Sydney
+    let sydneyElement = document.querySelector("#sydney");
+    let sydneyDateElement = sydneyElement.querySelector(".date");
+    let sydneyTimeElement = sydneyElement.querySelector(".time");
+    let sydneyTime = moment().tz("Australia/Sydney");
+    sydneyDateElement.innerHTML = sydneyTime.format("MMMM Do YYYY");
+    sydneyTimeElement.innerHTML = sydneyTime.format("h:mm:ss [<small>]A[</small>]");
+  }
 
 function updateCity(event){
     let cityTimeZone = event.target.value;
@@ -32,7 +48,9 @@ function updateCity(event){
           </div>
           <div class="time">${cityTime.format("hh:mm:ss")} <small>${cityTime.format("A")}</small></div>
         </div>
-        <a href="/">Go back</a>`
+        <a href="index.html"><span class="material-symbols-rounded">
+arrow_back
+</span>Go back</a>`
 }
 
 updateTime();

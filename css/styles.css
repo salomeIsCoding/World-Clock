@@ -40,7 +40,7 @@ select {
     background: #F5F5F5;
     display: block;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     width: 80%;
     padding: 12px;
 }
@@ -50,14 +50,13 @@ select {
     display: flex;
     margin: 10px auto;
     width: 80%;
-    /* background: #E8D174;
-        border: 2px solid #1E1E1E;
-        border-radius: 22.026px; */
+    background: #E8D174;
+        border-radius: 20px; 
     padding: 30px 30px;    
     justify-content: space-between;
 }
 
-/* #paris {
+#paris {
     background-color: #F5F5F5;
 }
 #london {
@@ -71,7 +70,7 @@ select {
 #sydney {
     background-color: #F5F0DB;
 
-} */
+}
 
 .date {
     font-family: Poppins;
