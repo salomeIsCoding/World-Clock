@@ -11,6 +11,16 @@ h1 {
         font-size: 40px;
 }
 
+#clock {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+#arrow {
+font-size: 18px;
+vertical-align: middle;
+}
+
 h2 {
     font-family: "glodok",
             sans-serif;
@@ -37,7 +47,7 @@ select {
     font-weight: 500;
     border: 2px solid #1A1A1A;
     border-radius: 30px;
-    background: #F5F5F5;
+    background: #f0ebf4;
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -90,10 +100,20 @@ select {
     font-size: 12px;
     vertical-align: middle;
 }
+
+a {
+    color: #1A1A1A;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
 footer {
     font-family: Poppins;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     margin: 30px;
 }
